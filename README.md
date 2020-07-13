@@ -31,7 +31,7 @@
 - [Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
 
 ## Project
-**금융권 환경에 맞는 Docker echo system 구축&고도화 | 카카오뱅크**
+>**금융권 환경에 맞는 Docker echo system 구축&고도화 | 카카오뱅크**
 - Docker container registry 운영
   - Harbor v2.0.0
   - Harbor custom prometheus exporter for robot account
@@ -45,13 +45,13 @@
   - elasticsearch & kibana (logging)
   - consul (service discovery)
 
-**금융권 퍼블릭 클라우드 도입 | 카카오뱅크**
+>**금융권 퍼블릭 클라우드 도입 | 카카오뱅크**
 - Terraform, Ansible 등을 이용한 운영 자동화 환경 구축
 - EKS 구축 및 운영정책 수립
   - terraform script 작성
   - 운영/사용 가이드 작성
 
-**금융권 프라이빗 클라우드 쿠버네티스 도입 | 카카오뱅크**
+>**금융권 프라이빗 클라우드 쿠버네티스 도입 | 카카오뱅크**
 - 금융권 컴플라이언스를 준수하는 Kubernetes 클러스터 구축
   - Ansible 기반의 provisioning script 작성
   - 운영/사용 가이드 작성
@@ -59,7 +59,7 @@
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
 
-**사내 관리용 서비스 업데이트 및 쿠버네티스 관리 | 플리토**
+>**사내 관리용 서비스 업데이트 및 쿠버네티스 관리 | 플리토**
 - 사내 데이터 관리용 서비스 업데이트
 - framework 변경
   - tsed framework -> nestjs framework 변경
