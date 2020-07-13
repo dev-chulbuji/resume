@@ -9,15 +9,15 @@
 - Github: https://github.com/dev-chulbuji
 
 ## Experience
-- [카카오뱅크](https://www.kakaobank.com/): 19.04 - 
-- [Flitto](https://www.flitto.com/): 18.11 - 19.02
-- [개인카페 창업 & 플리랜서](https://www.instagram.com/__zipdri/)
-- [Vingle](https://vingle.com): 17.06 - 17.10
-- [Goqual](https://www.goqual.com/): 15.02 - 17.04
-- ClasseStudio: 13.07 - 14.07
+- [카카오뱅크](https://www.kakaobank.com/) (19.04 - )
+- [Flitto](https://www.flitto.com/) (18.11 - 19.02)
+- [개인카페 창업 & 플리랜서](https://www.instagram.com/__zipdri/) (17.10 - 18.10)
+- [Vingle](https://vingle.com) (17.06 - 17.10)
+- [Goqual](https://www.goqual.com/) (15.02 - 17.04)
+- ClasseStudio( 13.07 - 14.07)
 
 ## Skill Stack
-- docker
+- docker container
 - kubernetes
 - nodejs
 - python
@@ -25,10 +25,10 @@
 - yaml
 
 ## Activity
-- [Open Infrastructure & Cloud Native Days Korea 2019 발표](https://drive.google.com/file/d/1bqkUrXOEUvNZxf0iXghlPZ5DSJhRZ85t/view?usp=sharing)
-- [Kubernetes 사내 발표](https://docs.google.com/presentation/d/1kOCsAngKGZpHvFVeS227cXsfFfPVlNWdtjaq5S1NDsg/edit#slide=id.g51229b7dc5_2_967)
-- Kubernetes 보안 발표
-- [Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
+- [Kubernetes Scheduler - Open Infrastructure & Cloud Native Days Korea 2019 발표](https://drive.google.com/file/d/1bqkUrXOEUvNZxf0iXghlPZ5DSJhRZ85t/view?usp=sharing)
+- [Kakaobank - Kubernetes 사내 발표](https://docs.google.com/presentation/d/1kOCsAngKGZpHvFVeS227cXsfFfPVlNWdtjaq5S1NDsg/edit#slide=id.g51229b7dc5_2_967)
+- AWS KRUG - Kubernetes 보안 발표
+- [Flitto - Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
 
 ## Project
 >**금융권 환경에 맞는 Docker echo system 구축&고도화 | 카카오뱅크**
@@ -85,3 +85,8 @@
 - 스위치 제어 백단 서버 개발
   - api server (nodejs, express, mysql)
   - mqtt server (mosquito)
+
+
+---
+여기까지 읽어주셔서 감사합니다. 더 궁금하신 내용이 있다면 ladmusician.kim@gmail.com으로 연락주세요.
+감사합니다 :)
