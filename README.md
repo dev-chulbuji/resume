@@ -44,13 +44,13 @@
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
   - consul (service discovery)
-
+---
 >**금융권 퍼블릭 클라우드 도입 | 카카오뱅크**
 - Terraform, Ansible 등을 이용한 운영 자동화 환경 구축
 - EKS 구축 및 운영정책 수립
   - terraform script 작성
   - 운영/사용 가이드 작성
-
+---
 >**금융권 프라이빗 클라우드 쿠버네티스 도입 | 카카오뱅크**
 - 금융권 컴플라이언스를 준수하는 Kubernetes 클러스터 구축
   - Ansible 기반의 provisioning script 작성
@@ -58,7 +58,7 @@
 - Kubernetes 모니터링 구축
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
-
+---
 >**사내 관리용 서비스 업데이트 및 쿠버네티스 관리 | 플리토**
 - 사내 데이터 관리용 서비스 업데이트
 - framework 변경
@@ -71,3 +71,17 @@
 - Docker image 경량화
   - Alpine linux
   - multi-stage docker build
+---
+>**안드로이드 클라이언트 앱 업데이트 | 빙글**
+- 대규모 업그레이드 TF 참여(involve 33%)
+- 안드로이드 배포 CI/CD jenkinsfile 고도화
+- 안드로이드 프로젝트 디자인패턴 변경
+  - MVC -> MVP pattern
+  - Presenter layer unit test 작성(JUnit)
+---
+>**원격제어 스마트 스위치 소프트웨어 구현 | 고퀄**
+- BLE(블루투스) 통신을 위한 펌웨어 개발(C++, cc2540)
+- 스위치 제어 클라이언트 앱 개발(Android)
+- 스위치 제어 백단 서버 개발
+  - api server (nodejs, express, mysql)
+  - mqtt server (mosquito)
