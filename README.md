@@ -44,3 +44,17 @@
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
   - consul (service discovery)
+
+**금융권 퍼블릭 클라우드 도입**
+- Terraform, Ansible 등을 이용한 운영 자동화 환경 구축
+- EKS 구축 및 운영정책 수립
+  - terraform script 작성
+  - 운영/사용 가이드 작성
+
+**금융권 프라이빗 클라우드 쿠버네티스 도입**
+- 금융권 컴플라이언스를 준수하는 Kubernetes 클러스터 구축
+  - Ansible 기반의 provisioning script 작성
+  - 운영/사용 가이드 작성
+- Kubernetes 모니터링 구축
+  - prometheus & grafana (metric)
+  - elasticsearch & kibana (logging)
