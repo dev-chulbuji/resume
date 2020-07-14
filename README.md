@@ -32,24 +32,24 @@
 
 ## Project
 >**Building & upgrading Docker echo system suitable for financial environment | 카카오뱅크**
-- Maintain Docker container registry
-  - Harbor v2.0.0
-  - Harbor custom prometheus exporter for robot account
 - Actively manage, improve and monitor Docker container CI/CD platform
   - Improve deployment based on Ansible
   - Built and deploy BLUE/GREEN deployment feature
+- Built and deploy Kubernetes cluster that complies with financial sector compliance
+  - Create provisioning script based on Ansible
+  - Create operation/user guide
+- Kubernetes monitoring
+  - prometheus & grafana (metric)
+  - elasticsearch & kibana (logging)
+- Maintain Docker container registry
+  - Harbor v2.0.0
+  - Harbor custom prometheus exporter for robot account
 - Control Docker cli for regulation
   - Improve Docker authz plugin(opensource :: hbm)
 - Improve Docker container monitoring
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
   - consul (service discovery)
-- Built and deploy Kubernetes cluster that complies with financial sector compliance
-  - Create provisioning script based on Ansible
-  - Create operation/user guide
-- Kubernetes 모니터링 구축
-  - prometheus & grafana (metric)
-  - elasticsearch & kibana (logging)
   
 ---
 
