@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/dev-chulbuji/resume.svg)
 [![HitCount](http://hits.dwyl.com/dev-chulbuji/resume.svg)](http://hits.dwyl.com/dev-chulbuji/resume)
 
-# 이력서
+# RESUME
 
 ## Introduce
 - Name: 김동진(dj.kim)
@@ -31,62 +31,68 @@
 - [Flitto - Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
 
 ## Project
->**금융권 환경에 맞는 Docker echo system 구축&고도화 | 카카오뱅크**
-- Docker container registry 운영
+>**Building & upgrading Docker echo system suitable for financial environment | 카카오뱅크**
+- Maintain Docker container registry
   - Harbor v2.0.0
   - Harbor custom prometheus exporter for robot account
-- Docker container CI/CD 플랫폼 고도화
-  - Ansible 기반의 배포 환경 고도화
-  - 무중단 배포 기능 추가(BLUE/GREEN)
-- Docker cli 통제
-  - hbm 오픈소스 고도화
-- Docker container 모니터링 환경 고도화
+- Actively manage, improve and monitor Docker container CI/CD platform
+  - Improve deployment based on Ansible
+  - Built and deploy BLUE/GREEN deployment feature
+- Control Docker cli for regulation
+  - Improve Docker authz plugin(opensource :: hbm)
+- Improve Docker container monitoring
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
   - consul (service discovery)
----
->**금융권 퍼블릭 클라우드 도입 | 카카오뱅크**
-- Terraform, Ansible 등을 이용한 운영 자동화 환경 구축
-- EKS 구축 및 운영정책 수립
-  - terraform script 작성
-  - 운영/사용 가이드 작성
----
->**금융권 프라이빗 클라우드 쿠버네티스 도입 | 카카오뱅크**
-- 금융권 컴플라이언스를 준수하는 Kubernetes 클러스터 구축
-  - Ansible 기반의 provisioning script 작성
-  - 운영/사용 가이드 작성
+- Built and deploy Kubernetes cluster that complies with financial sector compliance
+  - Create provisioning script based on Ansible
+  - Create operation/user guide
 - Kubernetes 모니터링 구축
   - prometheus & grafana (metric)
   - elasticsearch & kibana (logging)
+  
 ---
->**사내 관리용 서비스 업데이트 및 쿠버네티스 관리 | 플리토**
-- 사내 데이터 관리용 서비스 업데이트
-- framework 변경
-  - tsed framework -> nestjs framework 변경
+
+>**Establish public cloud for financial enviroment | 카카오뱅크**
+- Create automation environment using Terraform, Ansible
+- Actively manage, improve EKS cluster
+  - terraform provisionign script
+  - operation/user guide
+
+---
+
+>**Improve in-house management system & manage kubernetes cluster | 플리토**
+- Manage in-house management system
+- Change framework
+  - tsed framework -> nestjs framework
   - sequelize orm -> typeorm
-  - unit test 작성
-- 사내 e2e 테스트 환경 구축 및 테스트 기능 구현
-- 자동화 시스템 구축
-  - AWS nacl 수동 -> AWS nacl 자동(terraform, slack, jenkins)
-- Docker image 경량화
+  - unit test
+- Improve e2e test environment
+- Create automation environment
+  - Automated AWS nacl(terraform, slack, jenkins)
+- Diet Docker image
   - Alpine linux
   - multi-stage docker build
+
 ---
->**안드로이드 클라이언트 앱 업데이트 | 빙글**
-- 대규모 업그레이드 TF 참여(involve 33%)
-- 안드로이드 배포 CI/CD jenkinsfile 고도화
-- 안드로이드 프로젝트 디자인패턴 변경
+
+>**Manage & Update Android client application | 빙글**
+- Involve application update TF (involve 33%)
+- Improve CI/CD jenkinsfile for android application deployment
+- Change android project design pattern
   - MVC -> MVP pattern
-  - Presenter layer unit test 작성(JUnit)
----
->**원격제어 스마트 스위치 소프트웨어 구현 | 고퀄**
-- BLE(블루투스) 통신을 위한 펌웨어 개발(C++, cc2540)
-- 스위치 제어 클라이언트 앱 개발(Android)
-- 스위치 제어 백단 서버 개발
-  - api server (nodejs, express, mysql)
-  - mqtt server (mosquito)
-
+  - Presenter layer unit test(JUnit)
 
 ---
-여기까지 읽어주셔서 감사합니다. 더 궁금하신 내용이 있다면 ladmusician.kim@gmail.com으로 연락주세요.
-감사합니다 :)
+
+>**Remote control smart switch software | 고퀄**
+- Develope Firmware BLE(bluetooth) communication feature(c++, cc2540)
+- Switch control android client application development
+- Switch control back-end server development
+  - api server (nodejs, express, ec2, RDS, S3, ELB)
+  - mqtt server (mosquito, ec2, rdis, ELB)
+
+---
+
+Thank you for reading so far. If you have any questions, please contact ladmusician.kim@gmail.com.
+Thank you :)
