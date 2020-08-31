@@ -2,7 +2,7 @@
 [![HitCount](http://hits.dwyl.com/dev-chulbuji/resume.svg)](http://hits.dwyl.com/dev-chulbuji/resume)  
 
 ---
-[![chulbuji's github stats](https://github-readme-stats.vercel.app/api?username=dev-chulbuji)](https://github.com/dev-chulbuji/review)
+[![chulbuji's github stats](https://github-readme-stats.vercel.app/api?username=dev-chulbuji)](https://github.com/dev-chulbuji/resume)
 ---
 
 # RESUME
