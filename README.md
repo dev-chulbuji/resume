@@ -1,7 +1,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/dev-chulbuji/resume.svg)
 [![HitCount](http://hits.dwyl.com/dev-chulbuji/resume.svg)](http://hits.dwyl.com/dev-chulbuji/resume)  
+
 ---
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)  
+[![chulbuji's github stats](https://github-readme-stats.vercel.app/api?username=dev-chulbuji)](https://github.com/dev-chulbuji/review)
 ---
 
 # RESUME
