@@ -12,7 +12,7 @@
 ## Experience
 - [카카오뱅크](https://www.kakaobank.com/) (19.04 - )
 - [Flitto](https://www.flitto.com/) (18.11 - 19.02)
-- [개인카페 창업 & 플리랜서](https://www.instagram.com/__zipdri/) (17.10 - 18.10)
+- [개인카페 창업 & 프리랜서](https://www.instagram.com/__zipdri/) (17.10 - 18.10)
 - [Vingle](https://vingle.com) (17.06 - 17.10)
 - [Goqual](https://www.goqual.com/) (15.02 - 17.04)
 - ClasseStudio( 13.07 - 14.07)
