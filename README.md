@@ -33,7 +33,7 @@
 - [Flitto - Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
 
 ## Project
->**Building & operation Kubernetes echo system suitable for financial environment | 카카오뱅크**
+>**Build & operation Kubernetes echo system suitable for financial environment | 카카오뱅크**
 - Implement and operate a Kubernetes CI/CD platform
   - Continuous Integration with Gitlab & gitlab-runner
   - Continuous Deployment with ArgoCD(GitOps)
@@ -42,7 +42,7 @@
 	- argocd-notifications for notifying CD events
 	- dex for SSO & RBAC
 - Operate AWS EKS(Elastic Kubernetes Service)
-  - Managed by Hashicorp Terraform
+  - Manage by Hashicorp Terraform
   - IRSA(Iam Role Service Account) for setting AWS IAM Role to pod
   - Traefik for Kubernetes Ingress Controller
   - Taint, Affinity and labels for scheduling strategy
@@ -52,7 +52,7 @@
   - prometheus & grafana (metric)
   - fluentbit & elasticsearch & kibana (logging)
   - jaeger & elasticsearch & (kafka) (tracing)
-- Built and deploy Kubernetes cluster that complies with financial sector compliance
+- Build and deploy Kubernetes cluster that complies with financial sector compliance
   - Create provisioning script based on Ansible
   - Create operation/user guide
 
@@ -75,14 +75,14 @@
 
 ---
 
->**Building & upgrading Docker echo system suitable for financial environment | 카카오뱅크**
+>**Build & upgrading Docker echo system suitable for financial environment | 카카오뱅크**
 - Actively manage, improve and monitor Docker container CI/CD platform
   - Improve deployment based on Ansible
-  - Built and deploy BLUE/GREEN deployment feature
+  - Build and deploy BLUE/GREEN deployment feature
 - Maintain Docker container registry
   - Harbor v2.0.0
   - Harbor custom prometheus exporter for robot account
-- Control Docker cli for regulation
+- Secure Docker cli for compliance
   - Improve Docker authz plugin(opensource :: hbm)
 - Improve Docker container monitoring
   - prometheus & grafana (metric)
