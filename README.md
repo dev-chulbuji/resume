@@ -26,7 +26,7 @@
 - yaml
 
 ## Activity
-- Fastcampus Devops 강의 (CI/CD, Monitoring, AWS Security)
+- [Fastcampus Devops 강의 (CI/CD, Monitoring, AWS Security)](https://fastcampus.co.kr/dev_online_awsdevops)
 - [Kubernetes Scheduler - Open Infrastructure & Cloud Native Days Korea 2019 발표](https://drive.google.com/file/d/1bqkUrXOEUvNZxf0iXghlPZ5DSJhRZ85t/view?usp=sharing)
 - [Kakaobank - Kubernetes 사내 발표](https://docs.google.com/presentation/d/1kOCsAngKGZpHvFVeS227cXsfFfPVlNWdtjaq5S1NDsg/edit#slide=id.g51229b7dc5_2_967)
 - AWS KRUG - Kubernetes 보안 발표
