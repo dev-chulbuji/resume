@@ -6,7 +6,8 @@
 - Github: https://github.com/dev-chulbuji
 
 ## 경험
-- [카카오뱅크](https://www.kakaobank.com/) (19.04 - )
+- [토스뱅크](https://www.tossbank.com/) (21.09 - )
+- [카카오뱅크](https://www.kakaobank.com/) (19.04 - 21.08)
 - [Flitto](https://www.flitto.com/) (18.11 - 19.02)
 - [개인카페 창업 & 프리랜서](https://www.instagram.com/__zipdri/) (17.10 - 18.10)
 - [Vingle](https://vingle.com) (17.06 - 17.10)
@@ -16,19 +17,58 @@
 ## 기술스택
 - docker container
 - kubernetes
+- service mesh
 - nodejs
 - python
 - bash
 - yaml
+- AWS
 
 ## 활동
-- Fastcampus Devops 강의 (CI/CD, Monitoring, AWS Security)
+- [Fastcampus Devops 강의 (CI/CD, Monitoring, AWS Security)](https://fastcampus.co.kr/dev_online_awsdevops)
 - [Kubernetes Scheduler - Open Infrastructure & Cloud Native Days Korea 2019 발표](https://drive.google.com/file/d/1bqkUrXOEUvNZxf0iXghlPZ5DSJhRZ85t/view?usp=sharing)
 - [Kakaobank - Kubernetes 사내 발표](https://docs.google.com/presentation/d/1kOCsAngKGZpHvFVeS227cXsfFfPVlNWdtjaq5S1NDsg/edit#slide=id.g51229b7dc5_2_967)
 - AWS KRUG - Kubernetes 보안 발표
 - [Flitto - Terraform 도입 사내 발표](https://docs.google.com/presentation/d/1VZvGsXjXc2EcJL6P_j0jUiUqF55HLvLwGNzLG00DIOw/edit?usp=sharing)
 
 ## 프로젝트
+>**쿠버네티스 에코 시스템 운영 및 개선 | 토스뱅크**
+- IDC 환경에서 멀티 클러스터 설치 및 운영
+- 쿠버네티스 클러스터 버전 업그레이드 진행
+- 트러블슈팅을 위해 master-plane component, kubelet, docker등 다양한 요소 설정 최적화
+- Istio service mesh 환경 운영
+  - MSA 환경에서의 네트워크 트래픽 가시화
+  - 다양한 배포 방식 지원 (블루그린배포, 카나리배포)
+  - fault injection
+  - envoyFilter를 활용한 트래픽 관리
+  - istio 버전 업그레이드
+  - istio sidecar 로깅 파이프라인 구축(ALS)
+
+>**모니터링 시스템 운영 및 개선 | 토스뱅크**
+- 메트릭 모니터링 시스템 운영
+  - Prometheus, Thanos, Grafana
+  - Longterm metric 관리
+  - Prometheus scraping 최적화
+- 로깅 시스템 운영
+  - Elasticsearch, Kibana, Logstash, Kafka
+  - 로깅 파이프라인 운영
+  - 로깅 데이터 최적화
+
+>**CI/CD 운영 및 개선 | 토스뱅크**
+- GOCD, Github Actions, Github, Harbor, AWS ECR
+- CI 환경 최적화
+- 자체 구축 서비스를 통한 사용성 증대
+- pipeline as a code (yaml)
+- 다양한 컴플라이언스 준수를 위한 파이프라인 설계
+
+>**AWS 운영 및 개선 | 토스뱅크**
+- AWS EKS 클러스터 설치 및 운영
+- AWS 권한 관리 운영 (SSO, IAM, ..)
+- AWS 보안 점검 자동화 (AWS lambda, SecurityHub, Config, ..)
+- Resource as a code (terraform)
+
+---
+
 >**금융환경에 맞는 Kubernetes(EKS) 에코 시스템 구축 및 운영 | 카카오뱅크**
 - Kubernetes CI/CD 구축 및 운영
 - AWS EKS 운영

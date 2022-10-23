@@ -10,7 +10,8 @@
 - Github: https://github.com/dev-chulbuji
 
 ## Experience
-- [카카오뱅크](https://www.kakaobank.com/) (19.04 - )
+- [토스뱅크](https://www.tossbank.com/) (21.09 - )
+- [카카오뱅크](https://www.kakaobank.com/) (19.04 - 21.08)
 - [Flitto](https://www.flitto.com/) (18.11 - 19.02)
 - [개인카페 창업 & 프리랜서](https://www.instagram.com/__zipdri/) (17.10 - 18.10)
 - [Vingle](https://vingle.com) (17.06 - 17.10)
@@ -20,10 +21,12 @@
 ## Skill Stack
 - docker container
 - kubernetes
+- service mesh
 - nodejs
 - python
 - bash
 - yaml
+- AWS
 
 ## Activity
 - [Fastcampus Devops 강의 (CI/CD, Monitoring, AWS Security)](https://fastcampus.co.kr/dev_online_awsdevops)
