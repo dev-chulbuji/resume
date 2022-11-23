@@ -53,6 +53,10 @@
   - Elasticsearch, Kibana, Logstash, Kafka
   - 로깅 파이프라인 운영
   - 로깅 데이터 최적화
+    - index allocation을 통한 tenant 분리
+    - 로그 필드 최적화
+      - default tpye: keyword
+      - keyword type에서 aggregation시 필요한 doc_values를 default false로 세팅
 
 >**CI/CD 운영 및 개선 | 토스뱅크**
 - GOCD, Github Actions, Github, Harbor, AWS ECR
